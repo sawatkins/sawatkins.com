@@ -1,10 +1,10 @@
 body {
 	margin: 0;
-	font-size: 14pt;
-	font-family: serif;
+	font-size: 12.5pt;
+	font-family: 'Playfair Display', serif;
 	line-height: 1.6em;
-	background-color: #fff;
-	color: #000;
+	background-color: #2C3639;
+	color: #DCD7C9;
 }
 
 div#c {
@@ -18,11 +18,11 @@ div#c {
 
 a:link {
 	text-decoration: underline;
-	color: #000;
+	color: #DCD7C9;
 }
 
 a:visited {
-	color: #000;
+	color: #DCD7C9;
 }
 
 a:hover {
@@ -35,7 +35,7 @@ div#header * {
 
 div#header a {
 	text-decoration: none;
-	border-bottom: solid 1px #000;
+	border-bottom: solid 1px #DCD7C9;
 }
 
 img {
