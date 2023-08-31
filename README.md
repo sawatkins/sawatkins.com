@@ -1,4 +1,4 @@
 # sawatkins.github.io
-Personal website at https://sawatkins.com. <sub>Site design taken from peter.bourgon.org</sub>  
+Personal website at https://sawatkins.com.  
 
 ![concord eclipse](/pics/concord8.jpeg)
