@@ -1,13 +1,11 @@
 body {
 	margin: 0;
 	font-size: 12.5pt;
-	font-family: 'Playfair Display', serif;
+	font-family: "Playfair Display", sans-serif; /* 'Playfair Display, Metrophobic'*/
 	line-height: 1.6em;
-	background-color: #2C3639;
-	color: #DCD7C9;
-}
+	background-color: #222223; /* #2C3639; */
+	color: #ccc;
 
-div#c {
 	min-width: 20em;
 	max-width: 40em;
 	margin-top: 7%;
@@ -18,15 +16,15 @@ div#c {
 
 a:link {
 	text-decoration: underline;
-	color: #DCD7C9;
+	color: #ccc;
 }
 
 a:visited {
-	color: #DCD7C9;
+	color: #ccc;
 }
 
 a:hover {
-	background-color: rgba(0, 0, 0, 0.18);
+	background-color: rgba(0, 0, 0, 0.33);
 }
 
 div#header * {
@@ -36,6 +34,14 @@ div#header * {
 div#header a {
 	text-decoration: none;
 	border-bottom: solid 1px #DCD7C9;
+}
+
+.small-text {
+	font-size: 0.9rem;
+}
+
+ul {
+	margin-top: none;
 }
 
 /* ::after,a [rel*=external] {
