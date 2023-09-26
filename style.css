@@ -1,8 +1,8 @@
 body {
 	margin: 0;
-	font-size: 12.5pt;
-	font-family: "Titillium Web", sans-serif; /* 'Playfair Display, Metrophobic, Cairo'*/
-	line-height: 1.6em;
+	font-size: 13pt;
+	font-family: serif; /* 'Playfair Display, Metrophobic, Cairo'*/
+	line-height: 1.5em;
 	background-color: #222223; /* #2C3639; */
 	color: #ccc;
 
@@ -12,6 +12,10 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 7%;
+}
+
+img {
+	margin-top: 1rem;
 }
 
 a:link {
