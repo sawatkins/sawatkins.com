@@ -1,7 +1,8 @@
 body {
 	margin: 0;
-	font-size: 13pt;
-	font-family: serif; /* 'Playfair Display, Metrophobic, Cairo'*/
+	font-size: 11pt;
+	font-family: Merriweather, serif; /* 'Playfair Display, Metrophobic, Cairo'*/
+	font-weight: 300;
 	line-height: 1.5em;
 	background-color: #222223; /* #2C3639; */
 	color: #ccc;
@@ -41,7 +42,7 @@ div#header a {
 }
 
 .small-text {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 ul {
