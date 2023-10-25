@@ -2,11 +2,9 @@ body {
 	margin: 0;
 	font-size: 11pt;
 	font-family: Merriweather, serif; /* 'Playfair Display, Metrophobic, Cairo'*/
-	font-weight: 300;
-	line-height: 1.5em;
+	line-height: 1.7em;
 	background-color: #222223; /* #2C3639; */
 	color: #ccc;
-
 	min-width: 20em;
 	max-width: 40em;
 	margin-top: 7%;
