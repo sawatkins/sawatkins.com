@@ -1,9 +1,9 @@
 body {
 	margin: 0;
-	font-size: 11pt;
-	font-family: Merriweather, serif; /* 'Playfair Display, Metrophobic, Cairo'*/
-	line-height: 1.7em;
-	background-color: #222223; /* #2C3639; */
+	font-size: 12pt;
+	font-family: "Source", monospace; /*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
+	line-height: 1.5em;
+	background-color: #1a1b1e; /*#222223; /* #2C3639; */
 	color: #ccc;
 	min-width: 20em;
 	max-width: 40em;
@@ -45,6 +45,10 @@ div#header a {
 
 ul {
 	margin-top: none;
+}
+
+.name {
+	font-size: 15pt;
 }
 
 /* ::after,a [rel*=external] {
