@@ -1,4 +1,4 @@
 # sawatkins.com
-Personal website at https://sawatkins.com. _(site design from peter.bourgon.org)_
+Personal website at https://sawatkins.com.
 
 ![concord eclipse](/pics/concord8.jpeg)
