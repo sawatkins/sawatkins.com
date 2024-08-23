@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-family: "Source Code Pro", monospace; /*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
 	line-height: 1.5em;
 	background-color: #1a1b1e; /*#222223; /* #2C3639; */
@@ -58,5 +58,5 @@ ul {
 }
 
 .name {
-	font-size: 14.5pt;
+	font-size: 14pt;
 }
