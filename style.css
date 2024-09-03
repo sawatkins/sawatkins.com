@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-size: 11pt;
-	font-family: "Source Code Pro", monospace; /*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
+	font-family: monospace; /* "Source Code Pro", monospace; */ /*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
 	line-height: 1.5em;
 	background-color: #1a1b1e; /*#222223; /* #2C3639; */
 	color: #ccc;
@@ -11,6 +11,10 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 7%;
+}
+
+#header {
+	font-family: 'Metrophobic', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
