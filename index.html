@@ -8,18 +8,12 @@
 	<meta name="description" content="Personal Website for Simon Watkins" />
 	<meta name="author" content="sawatkins" />
 	<link rel="canonical" href="https://sawatkins.com" />
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-		rel="stylesheet">
-
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<meta name="robots" content="index, follow">
 	<style>
 		@font-face {
-			font-family: 'berkelymono';
-			src: url('berkelymono.woff2') format('woff2');
+			font-family: 'sourcecodepro';
+			src: url('fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
 			font-weight: normal;
 			font-style: normal;
 		}
@@ -27,9 +21,11 @@
 		body {
 			margin: 0;
 			font-size: 11pt;
-			font-family: "JetBrains Mono", monospace;
-			/* "Source Code Pro", monospace; */
+			font-family: 'sourcecodepro', monospace;
 			/*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-style: normal;
 			line-height: 1.5em;
 			background-color: #1a1b1e;
 			/*#222223; /* #2C3639; */
@@ -42,9 +38,9 @@
 			margin-bottom: 7%;
 		}
 
-		#header {
-			font-family: "JetBrains Mono", monospace;
-		}
+		/* #header {
+			font-family: "sourcecodepro", monospace;
+		} */
 
 		@media screen and (max-width: 768px) {
 			body {
@@ -69,9 +65,10 @@
 			color: #ccc;
 		}
 
-		/* a:hover {
-			background-color: rgba(0, 0, 0, 0.33);
-		} */
+		a:hover {
+			color: #adadad;
+			/* background-color: rgba(0, 0, 0, 0.33); */
+		}
 
 		div#header * {
 			margin: 0 0.25em 0 0;
