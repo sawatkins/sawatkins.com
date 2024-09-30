@@ -8,22 +8,104 @@
 	<meta name="description" content="Personal Website for Simon Watkins" />
 	<meta name="author" content="sawatkins" />
 	<link rel="canonical" href="https://sawatkins.com" />
-	<!-- <link href="https://fonts.cdnfonts.com/css/univers-lt-std" rel="stylesheet">
-	<link href="https://fonts.cdnfonts.com/css/univers" rel="stylesheet"> -->
-	<link href="https://fonts.cdnfonts.com/css/metrophobic" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+		rel="stylesheet">
+
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<meta name="robots" content="index, follow">
+	<style>
+		@font-face {
+			font-family: 'berkelymono';
+			src: url('berkelymono.woff2') format('woff2');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		body {
+			margin: 0;
+			font-size: 11pt;
+			font-family: "JetBrains Mono", monospace;
+			/* "Source Code Pro", monospace; */
+			/*Merriweather, serif;  'Playfair Display, Metrophobic, Cairo'*/
+			line-height: 1.5em;
+			background-color: #1a1b1e;
+			/*#222223; /* #2C3639; */
+			color: #ccc;
+			min-width: 20em;
+			max-width: 40em;
+			margin-top: 7%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-bottom: 7%;
+		}
+
+		#header {
+			font-family: "JetBrains Mono", monospace;
+		}
+
+		@media screen and (max-width: 768px) {
+			body {
+				margin: 5%;
+				min-width: auto;
+				max-width: none;
+			}
+		}
+
+		img {
+			margin-top: 1rem;
+			max-width: 100%;
+			height: auto;
+		}
+
+		a:link {
+			text-decoration: underline;
+			color: #ccc;
+		}
+
+		a:visited {
+			color: #ccc;
+		}
+
+		/* a:hover {
+			background-color: rgba(0, 0, 0, 0.33);
+		} */
+
+		div#header * {
+			margin: 0 0.25em 0 0;
+		}
+
+		div#header a {
+			text-decoration: none;
+			border-bottom: solid 1px #DCD7C9;
+		}
+
+		.small-text {
+			font-size: 0.8em;
+		}
+
+		ul {
+			margin-top: none;
+		}
+
+		.name {
+			font-size: 14pt;
+		}
+	</style>
 </head>
 
 <body>
 	<div id="header">
-		<p>
-			<strong class="name">Simon Watkins</strong>
-			<!-- <a class="nav" href="/" title="Home">Home</a>
-			<a class="nav" href="/about.html" title="About">About</a> -->
-		</p>
+		<p class="name">Simon Watkins</p>
+		<!-- <p> -->
+			<!-- <strong class="name">Simon Watkins</strong> -->
+			<!-- <a class="nav" href="/" title="Home">Home</a> -->
+			<!-- <a class="nav" href="/about.html" title="About">About</a> -->
+		<!-- </p> -->
 	</div>
-	<img src="pics/concord8.jpeg" alt="" width="350px" height="auto">
+	<img src="pics/concord9.jpeg" alt="" width="350px" height="auto">
 	<p>
 		GitHub <a href="https://github.com/sawatkins" target="_blank">sawatkins</a><br />
 		Email <a href="mailto:simon@sawatkins.com">simon@sawatkins.com</a>
@@ -31,16 +113,19 @@
 	<p>
 		About me<br />
 		&bull; Recent CS graduate <br />
-		&bull; Interested in backend dev, cloud computing, SRE, Go <br />
+		&bull; Interested in Go, backend dev, cloud computing, and SRE<br />
 		&bull; From the Los Angeles area
 	</p>
 	<p>
 		Some of my projects<br />
-		&bull; <a href="https://blog-search.fly.dev" target="_blank">blog-search</a> - <span class="small-text">Search engine focused on indexing personal blog content</span><br />
-		&bull; <a href="https://upfast.tf" target="_blank">upfast.tf</a> - <span class="small-text">Web platform to host and monitor dedicated video game servers</span><br />
-		<!-- &bull; <a href="https://quickread.fly.dev" target="_blank">quickread</a> - <span class="small-text">Upload & Summarize PDF Documents</span><br /> -->
-		&bull; <a href="https://filmsearch.xyz" target="_blank">filmsearch.xyz</a> - <span class="small-text">AI-assisted web app to discover movies using natural language</span><br />
-		<!-- &bull; <a href="https://github.com/sawatkins/lit2go-dl" target="_blank">lit2go-dl</a> - <span class="small-text">Shell script to download free audiobooks</span><br /> -->
+		&bull; <a href="https://blog-search.fly.dev" target="_blank">blog-search</a> - <span class="small-text">Search
+			engine focused on indexing personal blog content</span><br />
+		&bull; <a href="https://upfast.tf" target="_blank">upfast.tf</a> - <span class="small-text">Web platform to host
+			and monitor dedicated video game servers</span><br />
+		&bull; <a href="https://filmsearch.xyz" target="_blank">filmsearch</a> - <span class="small-text">AI-assisted
+			web app to discover movies using natural language</span><br />
+		<!-- &bull; <a href="https://quickread.fly.dev" target="_blank">quickread</a> - <span class="small-text">Upload &
+			Summarize PDF Documents</span><br /> -->
 	</p>
 
 </body>
