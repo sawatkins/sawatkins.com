@@ -33,8 +33,8 @@
 			color: #ccc;
 			min-width: 20em;
 			max-width: 40em;
-			margin-top: 7%;
-			margin-left: 10%;
+			margin-top: 4%;
+			margin-left: 7%;
 			margin-right: 10%;
 			margin-bottom: 7%;
 		}
@@ -92,6 +92,54 @@
 		.name {
 			font-size: 14pt;
 		}
+		
+		.projects {
+			margin-top: 0.5em;
+		}
+		
+		.project {
+			margin-bottom: 0.8em;
+			padding-left: 0.75em;
+			border-left: 1px solid #333;
+			/* transition: all 0.03s ease; */
+			padding-top: 0.1em;
+			padding-bottom: 0.1em;
+		}
+		
+		.project:hover {
+			border-left-color: #666;
+			background-color: rgba(255, 255, 255, 0.02);
+		}
+		
+		.project h3 {
+			margin: 0;
+			font-size: 1em;
+			font-weight: 500;
+		}
+		
+		.project-description {
+			margin: 0.15em 0;
+			font-size: 0.9em;
+			color: #aaa;
+		}
+
+		.about-description {
+			margin: 0.15em 0;
+			/* font-size: 0.9em; */
+			color: #aaa;
+			padding-left: 0.75em;
+			border-left: 1px solid #333;
+			/* transition: all 0.03s ease; */
+			padding-top: 0.1em;
+			padding-bottom: 0.1em;
+		}
+		
+		.tech-stack {
+			font-size: 0.85em;
+			color: #777;
+			margin: 0.1em !important;
+			font-style: italic;
+		}
 	</style>
 </head>
 
@@ -109,24 +157,42 @@
 		GitHub <a href="https://github.com/sawatkins">sawatkins</a><br />
 		Email <a href="mailto:simon@sawatkins.com">simon@sawatkins.com</a>
 	</p>
-	<p>
-		About me<br />
-		&bull; Recent CS graduate <br />
-		&bull; Interested in cloud infrastructure, backend, and SRE<br />
-		&bull; From the Los Angeles area
+	<p style="margin-bottom: 0.35em;">
+		About
 	</p>
-	<p>
-		Some of my projects<br />
-		&bull; <a href="https://upfast.tf">upfast.tf</a> - <span class="small-text">Web platform to host
-			and monitor dedicated video game servers</span><br />
-		&bull; <a href="https://blogsearch.io">blogsearch.io</a> - <span class="small-text">Search
-			engine focused on indexing personal blog content</span><br />
-		&bull; <a href="https://filmsearch.xyz">filmsearch</a> - <span class="small-text">AI-assisted
-			web app to discover movies using natural language</span><br />
-		&bull; <a href="https://whalesongs.fm">whalesongs</a> - <span class="small-text">Listen to calming humpback whale songs with others</span><br />
-		<!-- &bull; <a href="https://quickread.fly.dev">quickread</a> - <span class="small-text">Upload &
-			Summarize PDF Documents</span><br /> -->
+	<p class="about-description"> Recent CS graduate from the Los Angeles area. Interested in cloud infrastructure, backend development, and SRE
 	</p>
+	<p style="margin-bottom: 0.35em;">
+		Projects
+	</p>
+	<div class="projects">
+		<div class="project">
+			<h3><a href="https://upfast.tf">upfast.tf</a></h3>
+			<p class="project-description">Web platform to host and monitor dedicated video game servers</p>
+			<p class="tech-stack">AWS, Linux, Go, Bash, Terraform, Prometheus, Grafana</p>
+		</div>
+		
+		<div class="project">
+			<h3><a href="https://blogsearch.io">blogsearch.io</a></h3>
+			<p class="project-description">Search engine focused on indexing personal blog content</p>
+			<p class="tech-stack">Kubernetes, Python, Docker, AWS SQS, PostgreSQL</p>
+		</div>
+		
+		<div class="project">
+			<h3><a href="https://filmsearch.xyz">filmsearch</a></h3>
+			<p class="project-description">AI-assisted web app to discover movies using natural language</p>
+			<!-- <p class="tech-stack">Tech: Go, OpenAI API,</p> -->
+		</div>
+		
+		<div class="project">
+			<h3><a href="https://whalesongs.fm">whalesongs</a></h3>
+			<p class="project-description">Listen to calming humpback whale songs with others</p>
+			<!-- <p class="tech-stack">Tech: WebRTC, Node.js, WebAudio API</p> -->
+		</div>
+	</div>
+	
+	<!-- &bull; <a href="https://quickread.fly.dev">quickread</a> - <span class="small-text">Upload &
+		Summarize PDF Documents</span><br /> -->
 
 </body>
 
